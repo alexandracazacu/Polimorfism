@@ -3,8 +3,8 @@ package com.company;
 public class Crow extends Bird {
     private float weight;
 
-    public Crow(String nameOfTheBird, String formOfTheBeak, int age, float weight) {
-        super(nameOfTheBird, formOfTheBeak, age);
+    public Crow(String colorOfTheBird, String formOfTheBeak, int age, float weight) {
+        super(colorOfTheBird, formOfTheBeak, age);
         this.weight = weight;
     }
 
@@ -24,7 +24,7 @@ public class Crow extends Bird {
     @Override
     public String toString() {
         return  " Weight = " + weight +
-                "\nName of the bird = " + nameOfTheBird +
+                "\nColor of the bird = " + colorOfTheBird +
                 "\nForm of the beak = " + formOfTheBeak +
                 "\nAge = " + age + "\n";
     }

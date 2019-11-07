@@ -1,8 +1,8 @@
 package com.company;
 
 public class Chicken extends Bird {
-    public Chicken(String nameOfTheBird, String formOfTheBeak, int age) {
-        super(nameOfTheBird, formOfTheBeak, age);
+    public Chicken(String colorOfTheBird, String formOfTheBeak, int age) {
+        super(colorOfTheBird, formOfTheBeak, age);
     }
 
     @Override
@@ -13,7 +13,7 @@ public class Chicken extends Bird {
     @Override
     public String toString() {
         return
-                "Name of the bird = " + nameOfTheBird +
+                "Color of the bird = " + colorOfTheBird +
                 "\nForm of the beak = " + formOfTheBeak +
                 "\nAge = " + age + "\n" ;
     }

@@ -1,22 +1,22 @@
 package com.company;
 
 public abstract class Bird {
-    protected String nameOfTheBird;
+    protected String colorOfTheBird;
     protected String formOfTheBeak;
     protected int age;
 
-    public Bird(String nameOfTheBird, String formOfTheBeak, int age) {
-        this.nameOfTheBird = nameOfTheBird;
+    public Bird(String colorOfTheBird, String formOfTheBeak, int age) {
+        this.colorOfTheBird = colorOfTheBird;
         this.formOfTheBeak = formOfTheBeak;
         this.age = age;
     }
 
-    public String getNameOfTheBird() {
-        return nameOfTheBird;
+    public String getColorOfTheBird() {
+        return colorOfTheBird;
     }
 
-    public void setNameOfTheBird(String classOfTheBird) {
-        this.nameOfTheBird = classOfTheBird;
+    public void setColorOfTheBird(String classOfTheBird) {
+        this.colorOfTheBird = classOfTheBird;
     }
 
     public String getformOfTheBeak() {

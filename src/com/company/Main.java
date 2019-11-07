@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
         List<Bird> birds;
         birds = new ArrayList<Bird>();
-        birds.add(new Chicken("Crow", "short", 2));
-        birds.add(new Crow("Chicken", "sharp", 9, 12));
+        birds.add(new Chicken("Yellow", "short", 2));
+        birds.add(new Crow("Black", "sharp", 9, 12));
 
 
         for (Bird bird : birds) {
